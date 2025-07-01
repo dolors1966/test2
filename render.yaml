@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: test
+    name: test2
     env: python
     buildCommand: ""
     startCommand: "gunicorn app:app"
